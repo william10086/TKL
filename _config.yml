@@ -1,29 +1,29 @@
 # config
 cover: /img/bg_img.jpg
 logo: /img/logo.png
-top_saying:
-- title: YOU'VE MADE A <span>BRAVE</span> DECISION, WELCOME.
-- content: 每一个不曾起舞的日子都是对生命的辜负。
-bottom_saying: 虽然还没想好写点什么，但是总觉得这里放句话比较和谐。
+top_saying: 
+- title: 
+- content: "<br/><br/><br/><br/><br/><br/><br/>A Craving For Cognition <br/> Welcome To Deepen's Blog!"
+bottom_saying: "每一个不曾起舞的日子都是对生命的辜负。 —— 尼采《查拉图斯特拉如是说》"
 # Content
-excerpt_link: Read More
+excerpt_link: "Read More"
 
 rss: /atom.xml
 
 highlightjs: vs
 
 #Works
-works:
-- works_name: AAA
-  works_url: /
-- works_name: BBB
-  works_url: /atom.xml
+# works:
+# - works_name: AAA
+#   works_url: /
+# - works_name: BBB
+#   works_url: /atom.xml
 
-#duoshuo name
-duoshuo:
+#duoshuo name duoshuo 是个网页评论的插件
+duoshuo:  Deepen
 
-#disqus name
-disqus_shortname:
+#disqus name  Disqus 是个网页评论的插件
+disqus_shortname: Deepen
 
 #fancybox
 fancybox: true
@@ -48,15 +48,13 @@ timeline:
 
 #Links
 links:
-- name: Kieran
-  link: http://go.kieran.top/
-- name: Name
-  link: http://domain.com/
+- name: Deepen
+  link: http://www.izalco.cn
 
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
